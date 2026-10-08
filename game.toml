@@ -22,7 +22,7 @@ bin_name = "Tomba! 2 - The Evil Swine Return (USA) (Track 1).bin"
 cue_name = "Tomba! 2 - The Evil Swine Return (USA).cue"
 boot_exe = "SCUS_944.54"
 discs = [
-  "G:/ps1 ports/games to recomp/Tomba! 2 - The Evil Swine Return (USA)/Tomba! 2 - The Evil Swine Return (USA).cue",
+  "Tomba! 2 - The Evil Swine Return (USA).cue",
 ]
 known_sizes = [410480448]
 known_md5 = [
