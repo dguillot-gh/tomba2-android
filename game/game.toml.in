@@ -1,0 +1,35 @@
+# Android runtime config, written by the start menu after the user selects
+# their own disc image (it fills the disc placeholder).
+[game]
+name = "Tomba! 2 - The Evil Swine Return"
+id = "SCUS-94454"
+players = 1
+exe = "disc/SCUS_944.54"
+discs = [
+  @@DISC1@@,
+]
+load_address = "0x80010000"
+entry_pc = "0x80018B6C"
+text_size = "0x00028800"
+stack_base = "0x801FFFF0"
+
+[recompiler]
+seeds = "seeds/ghidra_funcs.txt"
+out_dir = "generated"
+strict = true
+
+[runtime]
+idle_skip = true
+video_renderer = "software"
+overlay_cache = true
+
+[controller]
+default_mode = "digital"
+
+[bios]
+path = "bios/openbios.bin"
+
+
+[video]
+renderer = "opengl"
+gl_thread = true
